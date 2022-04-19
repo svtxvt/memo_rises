@@ -1,0 +1,24 @@
+@import 'variable.scss';
+
+.mem-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  a {
+    color: black;
+  }
+
+  img {
+    width: 75%;
+    border-radius: 5px;
+  }
+
+  p {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
+

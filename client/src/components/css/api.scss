@@ -1,0 +1,33 @@
+@import 'variable.scss';
+
+.API {
+  margin: 20px;
+
+  * {
+    color: $myBlueColor;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    font-weight: bold;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  table, th, td {
+    border: $myBlueColor;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  #warning {
+    color: $myRedColor;
+  }
+}
